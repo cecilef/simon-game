@@ -1,4 +1,5 @@
 import React from 'react';
+import {Game} from "./game";
 
 const formatName = user => `${user.firstName} ${user.lastName}`;
 
@@ -9,9 +10,7 @@ const user = {
 
 const Home = () => {
     return (
-     <div>
-        <h1>Hello, {formatName(user)}!</h1>
-      </div>
+     <Game/>
    )
 };
 
