@@ -11,7 +11,7 @@ export class Key extends React.Component {
 
   render() {
     return (
-      <div>test</div>
+      <div onClick={this.props.onClick}>test</div>
     )
   }
 }
